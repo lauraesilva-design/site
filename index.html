@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <a href="#s1">SC</a>
+        <a href="#s2">RJ</a>
+        <a href="#s3">SP</a>
+        <a href="#s4">PE</a>
+    </nav>
+    <main>
+        <section id="s1">
+            <div class="left">
+                <img src="./pedrafurada.jpg" alt="Pedra Furada">
+            </div>
+            <div class="right">
+                <h1>Santa Catarina</h1>
+                <p>A imagem mostra a Pedra Furada, um dos principais atrativos do Parque Nacional de São Joaquim,
+                    localizado na região serrana do estado de Santa Catarina, no sul do Brasil. </p>
+            </div>
+        </section>
+
+        <section id="s2">
+            <div class="card">
+                <img src="./escada.webp" alt="">
+                <div class="wrapTexts">
+                    <h3>Escadaria Selarón</h3>
+                    <P>A Escadaria Selarón é um ponto turístico muito visitado do Rio de Janeiro. Ela é famosa pelos
+                        mais de 200 degraus
+                        decorados com azulejos coloridos, vindos de vários países.O local atrai turistas do mundo todo,
+                        rende fotos
+                        icônicas e conecta os bairros da Lapa e Santa Teresa.</P>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="./pao.jpg" alt="Pão de Açucar">
+                <div class="wrapTexts">
+                    <h3>Pão de Açucar</h3>
+                    <p>O Morro do Pão de Açúcar está localizado no Rio de Janeiro,
+                        Brasil, especificamente no bairro da Urca.
+                        É uma formação rochosa de 396 metros de altura situada na entrada da Baía de Guanabara.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./cristo.jpg" alt="Cristo Redentor">
+                <div class="wrapTexts">
+                    <h3>Cristo Redentor</h3>
+                    <p>Cristo Redentor, um dos pontos turísticos mais famosos do Brasil e do mundo,
+                        localizada no Morro do Corcovado, no Rio de Janeiro. </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="s3">
+
+            <h2>Vídeo</h2>
+            <iframe class="video" src="https://www.youtube.com/embed/xB7cturLlHQ?si=GHgneJF7MZbqDeej"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+
+        <section id="s4">
+            <div class="wrapTexts">
+                <h2>Pernanbuco</h2>
+            </div>
+            <div class="liv2">
+
+                <div class="liv">
+                    <img src="./fn.jpg" alt="">
+                </div>
+                <div class="liv">
+                    <p>As praias de Pernambuco estão entre as mais belas do Brasil, atraindo turistas do mundo inteiro
+                        por sua diversidade e beleza natural.
+                        O litoral pernambucano combina águas mornas, coqueirais, arrecifes e paisagens que agradam tanto
+                        quem busca descanso quanto quem procura aventura.
+                        Em muitas praias, os arrecifes naturais formam piscinas de águas claras e calmas, ideais para
+                        banho e para famílias com crianças.Entre os destinos mais conhecidos está Porto de Galinhas,
+                        famosa por suas piscinas naturais e pela excelente infraestrutura turística. Praia dos Carneiros
+                        encanta com seu cenário paradisíaco, onde o mar tranquilo encontra uma charmosa igrejinha à
+                        beira-mar.
+                        Já Boa Viagem, em Recife, é uma praia urbana bastante movimentada, cercada por hotéis,
+                        restaurantes e ciclovias, sendo um dos cartões-postais da capital.
+
+                        Pernambuco também abriga o arquipélago de Fernando de Noronha, considerado um dos melhores
+                        destinos de praia do mundo.
+                        Suas águas cristalinas são perfeitas para mergulho, permitindo a observação de golfinhos,
+                        tartarugas e uma rica vida marinha.
+                        Noronha é um exemplo de turismo sustentável, com preservação ambiental rigorosa.
+
+                        Assim, as praias pernambucanas se destacam não apenas pela beleza, mas também pela variedade de
+                        experiências que oferecem, tornando o estado um destino completo para quem deseja contato com a
+                        natureza, lazer e momentos inesquecíveis.</p>
+                </div>
+                <div class="liv">
+                    <img src="./porto.avif" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="s5">
+            <div class="formulario">
+
+            <h2>contado</h2>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" ></input>
+            
+           <label for="assunto">mensagem</label>
+            <textarea id="assunto" placeholder="digite sua mensagem"></textarea>
+            <button onclick="enviar('Sua mensagem foi enviada, vamos analizar, logo entraremos em contado.')">enviar</button>
+            
+          </div>
+           
+        </section>
+    </main>
+    <footer>
+
+        <a href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.github.com">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.discord.com">
+            <i class="fa-brands fa-discord"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
